@@ -46,8 +46,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Geolocation">
-	            <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker"/>
-	        </feature>
+                <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker"/>
+            </feature>
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
@@ -82,12 +82,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </js-module>
 
         <config-file target="config.xml" parent="/*">
-	        <feature name="Geolocation">
-	            <param name="ios-package" value="CDVLocation"/>
-	        </feature>
+            <feature name="Geolocation">
+                <param name="ios-package" value="CDVLocation"/>
+            </feature>
         </config-file>
         <header-file src="src/ios/CDVLocation.h" />
-	    <source-file src="src/ios/CDVLocation.m" />
+        <source-file src="src/ios/CDVLocation.m" />
     </platform>
 
     <!-- blackberry10 -->
